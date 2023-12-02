@@ -1,0 +1,30 @@
+﻿-Dowload mod::  When the SAMSUNG Galaxy logo pops up hold down Volume Down + Volume Up
+and plug Type-C USB cable connected with PC 
+-
+          sudo apt-get update -y
+          sudo apt install gcc-aarch64-linux-gnu -y
+          sudo apt install gcc-arm-linux-gnueabi -y
+          sudo apt install binutils make python3 ccache libssl-dev build-essential bc bison flex unzip libssl-dev ca-certificates xz-utils mkbootimg cpio device-tree-compiler git git-lfs jq -y
+      
+	  
+https://forum.xda-developers.com/galaxy-a30/how-to/root-galaxy-a30-magisk-canary-relaese-t3936481?fbclid=IwAR1Zo_MXa-mXN2mEU0PN-BvBYg9eLo05Hir6AFX0C0ZkdmckGyW4yEB3c8c
+ adb shell cat /proc/last_kmsg > kmsg.log
+ 
+ How to enable case sensitivity support on Windows 10
+cmd Run as administrator. for only 1 folder
+fsutil.exe file SetCaseSensitiveInfo C:\Users\Admin\Desktop\SM-M515F_CIS_RR\include\uapi\linux\netfilter enable
+fsutil.exe file SetCaseSensitiveInfo C:\Users\Admin\Desktop\SM-M515F_CIS_RR\net\netfilter enable
+fsutil.exe file SetCaseSensitiveInfo C:\Users\Admin\Desktop\SM-M515F_CIS_RR\include\uapi\linux\netfilter_ipv6 enable
+fsutil.exe file SetCaseSensitiveInfo C:\Users\Admin\Desktop\SM-M515F_CIS_RR\include\uapi\linux\netfilter_ipv4 enable
+
+mkdir -p SM-M515F_CIS_RR/include/uapi/linux/netfilter
+mkdir -p SM-M515F_CIS_RR/net/netfilter
+mkdir -p SM-M515F_CIS_RR/include/uapi/linux/netfilter_ipv6
+mkdir -p SM-M515F_CIS_RR/include/uapi/linux/netfilter_ipv4
+
+gunzip Kernel.tar.gz
+
+Add all permissions:
+
+$ chmod +rwx example.sh
+sudo chmod -R a+rws empty.c
